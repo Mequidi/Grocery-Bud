@@ -108,7 +108,8 @@ function clearBox() {
 
 }
 
-function setBackToDefault() {
+function setBackToDefault(){
+    console.log("set back to default");
     input.value = "";
     editFlag = false;
     editID = "";
