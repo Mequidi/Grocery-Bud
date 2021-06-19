@@ -144,7 +144,7 @@ body {
 .grocery-container{
     margin-top: 2rem;
     transition: var(--transition);
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .grocery-list{
     border-radius: var(--radius);
@@ -206,4 +206,7 @@ body {
 }
 .clear-btn:hover{
     color: var(--clr-red-dark);
+}
+.show-container{
+    visibility: visible;
 }
